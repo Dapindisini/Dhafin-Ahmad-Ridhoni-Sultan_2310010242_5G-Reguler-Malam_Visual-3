@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHalaman_Utama">
+    <property name="title">
+     <string>Halaman Utama</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionData_Pekerja"/>
+    <addaction name="actionData_Jadwal"/>
+    <addaction name="actionData_Lokasi"/>
+    <addaction name="actionAlat_Berat"/>
+   </widget>
+   <addaction name="menuHalaman_Utama"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionData_Pekerja">
+   <property name="text">
+    <string>Pekerja</string>
+   </property>
+  </action>
+  <action name="actionData_Jadwal">
+   <property name="text">
+    <string>Jadwal Piket</string>
+   </property>
+  </action>
+  <action name="actionData_Lokasi">
+   <property name="text">
+    <string>Lokasi Tambang</string>
+   </property>
+  </action>
+  <action name="actionAlat_Berat">
+   <property name="text">
+    <string>Alat Berat</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

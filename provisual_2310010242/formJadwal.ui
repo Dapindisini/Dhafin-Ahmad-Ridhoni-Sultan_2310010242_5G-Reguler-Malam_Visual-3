@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>401</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="iDJadwalLabel">
+      <property name="text">
+       <string>ID Jadwal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="idEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="iDPekerjaLabel">
+      <property name="text">
+       <string>ID Pekerja</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="pekerjaComboBox"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="jamKerjaLabel">
+      <property name="text">
+       <string>Jam Kerja</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="jamEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lokasiLabel">
+      <property name="text">
+       <string>Lokasi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lokasiEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="simpanBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ubahBtn">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>170</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hapusBtn">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>170</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tabelJadwal">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>401</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID Jadwal</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Lokasi</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
